@@ -1,0 +1,69 @@
+div.section-container {
+  /* background-color: red; */
+  height: 100%;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  border: 1px solid #e0e0e2;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+div.section-container > div {
+  width: 25%;
+  height: inherit;
+  border-right: 1px solid #e0e0e2;
+}
+div.section-container > div:nth-child(2) {
+  border-right: 1px solid #e0e0e2;
+}
+div.section-container > div:nth-child(3) {
+  border-right: 1px solid #e0e0e2;
+}
+div.section-container > div:nth-child(4) {
+  border-right: 1px solid #e0e0e2;
+}
+div.section-container > div > div {
+  width: 49%;
+  height: 25%;
+  display: inline-block;
+}
+div.section-container > div > a {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+div.section-container > div > div > a > img {
+  display: inline-block;
+  width: 90%;
+  margin: 5px;
+}
+div.section-container > div > p {
+  padding-right: 10px;
+}
+div.section-container > div > p:first-child {
+  font-size: 18px;
+}
+div.section-container > div > p:nth-child(2) {
+  font-size: 10.5px;
+  color: #81858b;
+}
+#Go-to {
+  display: block;
+  color: rgb(9, 197, 197);
+  width: auto;
+  height: auto;
+  text-align: center;
+  text-decoration: none;
+}
+div.section-container > div > div:nth-child(4) {
+  border-right: 1px solid #e0e0e2;
+}
+div.section-container > div > div:nth-child(6) {
+  border-right: 1px solid #e0e0e2;
+}
+div.section-container > div > div:nth-child(6) {
+  border-top: 1px solid #e0e0e2;
+}
+div.section-container > div > div:nth-child(5) {
+  border-top: 1px solid #e0e0e2;
+}

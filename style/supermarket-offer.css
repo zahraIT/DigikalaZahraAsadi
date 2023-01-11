@@ -1,0 +1,96 @@
+div.parrent-supper-market {
+  height: 150px;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 25px;
+  margin-top: 15px;
+  background: rgb(242, 242, 242);
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+div.parrent-supper-market > img {
+  height: 70px;
+  margin: 15px;
+  margin-right: 35px;
+}
+div.parrent-supper-market > p {
+  font-family: Vazir;
+  font-size: 35px;
+  padding: 20px;
+  color: #39ae00;
+}
+div.parrent-supper-market > div.btn1-super-market {
+  font-size: 16px;
+  height: 35px;
+  text-align: center;
+  border-radius: 35px;
+  width: 120px;
+  border: 1px solid #39ae00;
+  color: rgb(0, 0, 0);
+  background-color: #39ae00;
+}
+div.cir-par {
+  display: flex;
+  margin-right: 60px;
+  position: relative;
+}
+div.parrent-supper-market > div.cir-par > div.cir-super-market {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: rgb(255, 255, 255);
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.parrent-supper-market > div.cir-par > div.cir-super-market > img {
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+  background: rgb(255, 255, 255);
+}
+div.btn2-super-market {
+  color: #30770d;
+  font-size: 16px;
+  height: 50px;
+  text-align: center;
+  border-radius: 35px;
+  padding-top: 9px;
+  width: 130px;
+  /* border: 1px solid #39ae00; */
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 35px;
+}
+.cir-super-market > div.discount {
+  background-color: red;
+  width: 32px;
+  height: 19px;
+  border-radius: 8px;
+  position: absolute;
+  bottom: 2px;
+  margin-left: 40px;
+}
+.cir-super-market > div.discount > p {
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  font-size: smaller;
+  line-height: 20px;
+}
+/* .cir-super-market::before {
+  content: "20%";
+  font-size: 12px;
+  color: white;
+  text-align: center;
+
+  background-color: red;
+  width: 28px;
+  height: 19px;
+  border-radius: 8px;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+} */

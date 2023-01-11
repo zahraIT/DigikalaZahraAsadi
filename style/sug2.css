@@ -1,0 +1,55 @@
+div.ads-parent + h2 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+div.sug2-container {
+  /* background-color: red; */
+  width: 91%;
+  height: 200px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  padding-right: 10px;
+}
+div.sug2-container > div {
+  padding: 0;
+  margin: -0.5px -1.9px;
+  width: 14.31%;
+  border: 1px solid rgb(221, 212, 212);
+  height: 140px;
+  display: inline-block;
+  text-align: center;
+  padding-top: 10px;
+}
+div.sug2-container > div:nth-child(1) {
+  border-radius: 0 25px 0 0;
+}
+div.sug2-container > div:nth-child(7) {
+  border-radius: 25px 0 0 0;
+}
+div.sug2-container > div:nth-child(14) {
+  border-radius: 0 0 0 25px;
+}
+div.sug2-container > div:nth-child(8) {
+  border-radius: 0 0 25px 0;
+}
+div.sug2-container > div > div.circle {
+  width: 83px;
+  height: 83px;
+  display: flex;
+  background-color: #efefef;
+  margin: 0 auto;
+  border: 1px solid rgb(226, 226, 226);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+div.sug2-container > div > div.circle > img {
+  width: 60px;
+  height: 60px;
+  mix-blend-mode: multiply;
+}
+div.sug2-container > div > p {
+  font-size: 12px;
+  line-height: 40px;
+}

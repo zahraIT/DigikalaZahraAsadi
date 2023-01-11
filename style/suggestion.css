@@ -1,0 +1,60 @@
+div.img-parent + h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+div.sug-parent {
+  width: 90%;
+  height: 200px;
+  margin: 0 auto;
+  margin-bottom: 220px;
+}
+div.sug1-parent {
+  display: flex;
+  height: 210px;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 25px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+div.sug-parent > div.sug1-parent > div {
+  width: 170px;
+  height: 210px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+div.sug1-parent > div > img {
+  width: 170px;
+  height: 170px;
+}
+
+div.sug2-parent {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 25px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+div.sug2-parent > div {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+div.sug2-parent > div > img {
+  width: 170px;
+}
+div.sug2-parent,
+div.sug1-parent :is(p) {
+  font-size: 12px;
+}

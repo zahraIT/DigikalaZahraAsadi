@@ -1,0 +1,30 @@
+div.cir-container {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  margin: 0 auto;
+}
+div.circle {
+  margin: 50px 15px 22px -20px;
+  text-align: center;
+  width: 85px;
+  height: 65px;
+  border-radius: 50%;
+  /* line-height: 190px; */
+}
+div.circle > img {
+  display: inline-block;
+  width: 65px;
+}
+div.cir-container div:last-child {
+  background-color: #efefef;
+  line-height: 48px;
+  font-size: 40px;
+  width: 65px;
+}
+div.cir-container > div > p {
+  font-size: 10px;
+}
+div.cir-container div:last-child > p {
+  padding-top: 15px;
+}

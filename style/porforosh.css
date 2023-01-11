@@ -1,0 +1,64 @@
+div.pf-container {
+  width: 90%;
+  height: 405px;
+  /* background: red; */
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #e0e0e6;
+  border-radius: 10px;
+}
+div.pf-container > div.head {
+  position: relative;
+  height: 10%;
+}
+div.pf-container > div.head > h2 {
+  font-size: 22px;
+}
+div.pf-container > div.head > h2 > span {
+  font-size: 22px;
+  color: #f9a825;
+}
+div.pf-container > div.head > a {
+  position: absolute;
+  top: 3px;
+  left: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #19bfd3;
+}
+div.pf-container > div.slider {
+  height: 88%;
+}
+div.pf-container > div.slider div.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  gap: 40px 0;
+}
+div.pf-container > div.slider div.swiper-slide > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+div.pf-container > div.slider div.swiper-slide div > p {
+  display: flex;
+  font-size: 12px;
+  border-bottom: 1px solid #f1f2f4;
+  width: 210px;
+  justify-content: center;
+  align-items: center;
+}
+div.pf-container > div.slider div.swiper-slide div > span {
+  font-size: 28px;
+  color: aqua;
+  font-weight: 700;
+
+}
+div.pf-container > div.slider div.swiper-slide div > div {
+  width: 65px;
+  height: 65px;
+}
+div.pf-container > div.slider div.swiper-slide div > div > img {
+  right: 0;
+  width: 65px;
+  height: 65px;
+}

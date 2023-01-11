@@ -1,0 +1,38 @@
+div.top-parent {
+  /* background: #efefef; */
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 25px;
+  text-align: center;
+  border: 0.5px solid rgb(177, 176, 176);
+}
+div.top-parent > p {
+  color: black;
+  font-size: 26px;
+  font-weight: 400;
+  padding-top: 15px;
+}
+div.top-parent > p > span {
+  color: gold;
+  font-weight: 400;
+}
+div.top-parent > div {
+  display: flex;
+  /* background-color: bisque; */
+  justify-content: center;
+  align-items: center;
+}
+div.top-parent > div > div {
+  margin: 20px 5px;
+  /* background-color: rgb(209, 132, 37); */
+  width: 9%;
+  height: 90px;
+  padding-bottom: 30px;
+  overflow: hidden;
+}
+div.top-parent > div > div > img {
+  width: 90px;
+  object-fit: contain;
+  height: auto;
+  border-left: 1px s;
+}
